@@ -27,7 +27,7 @@ To help brands and individuals **build a strong online presence** that looks pro
 
 ### 📫 Let’s Work Together
 - ✉️ Email: [musabsaniahmad9081@gmail.com](musabsaniahmad9081@gmail.com)  
-- 🌍 Portfolio: [musabwebdev.github.io](https://musabwebdev.github.io)  
+- 🌍 Portfolio: [musabwe.github.io](https://musabwe.github.io)  
 - 💬 Open for freelance work and collaborations  
 
 ---
