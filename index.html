@@ -1,31 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Musabwe's Personal Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Welcome | MusabWebDev  Mus'ab Sani Ahmad</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#f7f8fa;
+      --text:#0f1722;
+      --muted:#4b5563;
+      --accent:#0ea5a4;
+      --radius:12px;
+      --shadow:0 6px 20px rgba(15,23,34,0.08);
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--text)}
+    .wrap{
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      padding:28px;
+      text-align:center;
+    }
+    .welcome{
+      margin-bottom:28px;
+      max-width:720px;
+    }
+    .welcome h1{
+      font-size:1.8rem;
+      margin-bottom:10px;
+      color:var(--accent);
+    }
+    .welcome p{
+      font-size:1rem;
+      color:var(--muted);
+      line-height:1.6;
+    }
+    .card{
+      max-width:760px;
+      width:100%;
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:28px;
+      display:grid;
+      grid-template-columns: 1fr 260px;
+      gap:20px;
+      align-items:start;
+      text-align:left;
+    }
+    @media (max-width:720px){
+      .card{grid-template-columns:1fr;padding:20px}
+    }
+    .intro h1{
+      margin:0 0 6px 0;
+      font-size:1.35rem;
+      letter-spacing:-0.2px;
+    }
+    .intro p.lead{
+      margin:0 0 14px 0;
+      color:var(--muted);
+      line-height:1.45;
+    }
+    .badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+    .badge{
+      background:rgba(14,165,164,0.12);
+      color:var(--accent);
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:0.85rem;
+    }
+    ul.skills{
+      margin:0;padding:0;list-style:none;
+      display:grid;grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:8px;color:var(--muted);
+    }
+    .cta{
+      display:flex;flex-direction:column;gap:10px;
+      align-items:stretch;
+    }
+    .btn{
+      display:inline-block;text-decoration:none;
+      padding:10px 12px;border-radius:10px;
+      text-align:center;font-weight:600;
+      border:1px solid rgba(15,23,34,0.06);
+      background:white;color:var(--text);
+      box-shadow:0 6px 18px rgba(15,23,34,0.04);
+    }
+    .btn-primary{
+      background:linear-gradient(180deg,var(--accent),#089c99);
+      color:white;border:none;
+    }
+    .small{font-size:0.92rem;color:var(--muted)}
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <p>Hi! I’m Musab Sani Ahmad. This is my personal website.</p>
-  </header>
-
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I’m a passionate web developer and the creator of MusabWebDev. I design and build clean, responsive, and professional websites for businesses and individuals. I work with HTML, CSS, and JavaScript to bring ideas to life online.My goal is to help brands grow through modern, user-friendly websites.</p>
+  <main class="wrap" role="main">
+    
+    <!-- 🌟 Welcome Note Section -->
+    <section class="welcome">
+      <h1>Welcome to MusabWebDev</h1>
+      <p>
+        👋 I’m <strong>Musab Sani Ahmad</strong>  your friendly web developer.  
+        Thank you for visiting my website! Here, you’ll find what I do, my skills, and how I can help your business grow online.  
+        Let’s build something amazing together 🚀
+      </p>
     </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:musabasaniahmad9081@gmail.com">musabsaniahmad9081@gmail.com</a></p>
-    </section>
+    <!-- 💼 About / Profile Card -->
+    <article class="card" aria-labelledby="profile-heading">
+      <div class="intro">
+        <h1 id="profile-heading">Musab Sani Ahmad — <span style="font-weight:600">MusabWebDev</span></h1>
+        <p class="lead">
+          👋 Hi I’m Musab. I design and build clean, responsive, and professional websites for businesses and individuals.
+          I work with HTML, CSS, and JavaScript to bring your ideas to life online and help your brand grow with modern, user-friendly sites.
+        </p>
+
+        <div class="badges" aria-hidden="true">
+          <span class="badge">Web Development</span>
+          <span class="badge">Responsive Design</span>
+          <span class="badge">Small Business Sites</span>
+          <span class="badge">MusabWebDev</span>
+        </div>
+
+        <h3 style="margin:14px 0 6px 0">Services</h3>
+        <ul class="small" style="margin-top:0">
+          <li>• Custom responsive websites (HTML/CSS/JavaScript)</li>
+          <li>• Landing pages & portfolio sites</li>
+          <li>• Website maintenance & updates</li>
+        </ul>
+
+        <h3 style="margin:14px 0 6px 0">Skills</h3>
+        <ul class="skills" aria-label="Skills list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Layouts</li>
+        </ul>
+
+        <p class="small" style="margin-top:14px">
+          🚀 Goal: Help brands look professional online and convert visitors into customers.
+        </p>
+      </div>
+
+      <aside class="cta" aria-label="Contact and portfolio">
+        <a class="btn btn-primary" href="mailto:musabsaniahmad9081@gmail.com">Contact Musab  Get a Quote</a>
+        <a class="btn" href="https://musabwe.github.io" target="_blank" rel="noopener">View Portfolio</a>
+
+        <div class="small" style="margin-top:8px">
+          <strong>Availability:</strong> Open for freelance work and small business projects.
+          <div class="contact" style="margin-top:8px">
+            ✉️ <a href="mailto:musabsaniahmad9081@gmail.com">musabsaniahmad9081@gmail.com</a><br>
+            🔗 <a href="https://musabwe.github.io" target="_blank" rel="noopener">musabwe.github.io</a>
+          </div>
+        </div>
+      </aside>
+    </article>
   </main>
-
-  <footer>
-    <p>&copy; 2025 Musab Sani Ahmad</p>
-  </footer>
 </body>
 </html>
