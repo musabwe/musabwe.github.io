@@ -1,27 +1,36 @@
-# 🌐 Musab’s Portfolio
+# 👋 Hi, I'm Musab Sani Ahmad
 
-Hi 👋, I’m **Musab Sani Ahmad**  
-I’m a beginner web developer passionate about creating beautiful and responsive websites.  
-This is my personal portfolio built using **HTML** and **CSS**.
+### 💼 Founder of **MusabWebDev**
 
----
-
-## 🚀 About This Project
-This project shows my skills, projects, and how to contact me.  
-It’s hosted on **GitHub Pages** at [musabwe.github.io](https://musabwe.github.io).
+I’m a passionate **Web Developer** who creates clean, responsive, and professional websites for businesses and individuals.  
+I work with **HTML, CSS, and JavaScript** to bring ideas to life online and help brands grow through modern, user-friendly websites.
 
 ---
 
-## 🛠️ Built With
-- HTML  
-- CSS  
+### 🚀 What I Do
+- 🌐 Custom business & portfolio websites  
+- 🎨 Responsive web design  
+- 🔧 Website updates and maintenance  
+- 🧠 Front-end development with HTML, CSS, and JavaScript  
 
 ---
 
-## 📫 Contact Me
-- Email: musabwe@example.com  
-- GitHub: [@musabwe](https://github.com/musabwe)
+### 🛠️ My Skills
+> HTML | CSS | JavaScript | Responsive Design | Front-End Development  
 
 ---
 
-⭐️ Feel free to fork this repo or give it a star if you like it!
+### 🎯 My Goal
+To help brands and individuals **build a strong online presence** that looks professional and converts visitors into customers.
+
+---
+
+### 📫 Let’s Work Together
+- ✉️ Email: [musabsaniahmad9081@gmail.com](musabsaniahmad9081@gmail.com)  
+- 🌍 Portfolio: [musabwe.github.io](https://musabwe.github.io)  
+- 💬 Open for freelance work and collaborations  
+
+---
+
+> 💡 *“A great website is the foundation of a successful brand — let’s build yours together.”*  
+> — **MusabWebDev**
